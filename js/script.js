@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				form.classList.remove('_sending');
 			}
 		} else {
-			alert('Заполните обязательные поля');
+			alert('Почта/телефон - это обязательное поле для заполнения');
 		}
 
 	}
