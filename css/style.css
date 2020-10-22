@@ -637,6 +637,11 @@ body.lock {
 
 .opportunities-page__image {
   margin: 0px 0px 10px 0px;
+  height: 554px;
+}
+
+.opportunities-page__image img {
+  height: 100%;
 }
 
 .opportunities-page__text {
@@ -1599,8 +1604,8 @@ body.lock {
     display: block;
   }
 
-  .opportunities-page__text {
-    text-align: justify;
+  .opportunities-page__image {
+    height: 450px;
   }
 
   .shop-page__row {
@@ -1654,5 +1659,17 @@ body.lock {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .price-page__item:nth-child(2) {
+    -webkit-transition: all 0.8s ease 0.0s;
+    -o-transition: all 0.8s ease 0.0s;
+    transition: all 0.8s ease 0.0s;
+  }
+
+  .price-page__item:nth-child(3) {
+    -webkit-transition: all 0.8s ease 0.0s;
+    -o-transition: all 0.8s ease 0.0s;
+    transition: all 0.8s ease 0.0s;
   }
 }
